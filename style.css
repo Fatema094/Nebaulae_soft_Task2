@@ -1,0 +1,20 @@
+h1 {
+    color: #0000cd;
+    text-align: center;
+  }
+
+  p {
+    color: #000080;
+    text-align: center;
+  }
+  
+
+  h4 {
+    background-color: black;
+    text-align: center;
+    color: white;
+  }
+
+  .card:hover {
+    box-shadow: black;
+  }
