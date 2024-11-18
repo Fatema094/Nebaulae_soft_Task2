@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    
+    <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -15,6 +15,7 @@
 <!--font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 </head>
 
 
@@ -67,7 +68,7 @@
               
               <div class="card-body ">
                   <p>Admission is yet to be completed</p>
-                  <h4>20 days left</h4>
+                  <button type="button" class="btn mt-2 bold py-3 text-uppercase w-100" style="background-color: #D9D9D9;">20 days left</button>
               </div>
           </div>
         </div>
@@ -140,10 +141,10 @@
           <div class="row px-5 py-5">
             
             <div class="card mx-auto shadow border-5 border-black border-2 rounded-5" style="height: 750px; width: 450px;">
-              <div class="card-header d-flex " >
-                <i class="fa fa-signal" aria-hidden="true" ></i>
-                <i class="fa fa-wifi" aria-hidden="true" ></i>
-                <i class="fa fa-battery-full" aria-hidden="true" ></i>
+              <div class="card-header d-flex mx" >
+                <i class="fa fa-signal mx-auto" aria-hidden="true" ></i>
+                <i class="fa fa-wifi px-3" aria-hidden="true" ></i>
+                <i class="fa fa-battery-full " aria-hidden="true" ></i>
               </div>
             
             
@@ -164,9 +165,9 @@
                   <i class="fa fa-youtube-play mx-2" aria-hidden="true"></i>
                 </div>
                 <div class="mt-4">
-                  <a href="#" class="btn btn-light mx-1">Enroll Now</a>
-                  <a href="#" class="btn btn-light mx-1">Enroll Now</a>
-                  <a href="#" class="btn btn-light mx-1">Enroll Now</a>
+                  <a href="#" class="btn btn-light mx-1">About Me</a>
+                  <a href="#" class="btn btn-light mx-1">Content</a>
+                  <a href="#" class="btn btn-light mx-1">Reviews</a>
                 </div>
                 <div class="mt-4">
                   <a href="#" class="d-block text-dark text-decoration-none border bg-light p-2 rounded mb-2">Career roadmap and advice</a>
@@ -174,7 +175,7 @@
                 </div>
                 
               </div> 
-              <div class="card-footer text-center">
+              <div class="card-footer text-center mb-5">
                 <button type="button" class="btn btn-primary w-100">ENROLL NOW</button>
               </div>
             </div>
@@ -193,9 +194,9 @@
 
             <div class="row">
             <div class="btn-group d-flex mb-3 px-3 " role="group">
-                <button type="button" class="btn btn-primary flex-fill">Course Details</button>
-                <button type="button" class="btn btn-light flex-fill" style="background-color: #E1F5FB;">Syllabus</button>
-                <button type="button" class="btn btn-dark text-dark flex-fill" style="background-color: #D9D9D9;">Project</button>
+                <button type="button" class="btn btn-primary flex-fill px-3">Course Details</button>
+                <button type="button" class="btn btn-light flex-fill px-3" style="background-color: #E1F5FB;">Syllabus</button>
+                <button type="button" class="btn btn-dark text-dark flex-fill px-3" style="background-color: #D9D9D9;">Project</button>
             </div>
             </div>
          
@@ -229,7 +230,7 @@
             <h4 class="py-3">Course Complete Curriculum</h4>
             <div class="btn-group-vertical w-100">
               <div class="btn-group">
-                <button type="button" class="btn btn-outline-dark px-3" data-bs-toggle="collapse" data-bs-target="#class1" style="height: 60px; text-align: left;">
+                <button type="button" class="btn btn-outline-dark px-3 " data-bs-toggle="collapse" data-bs-target="#class1" style="height: 60px; text-align: left; color: #0720FF;">
                   Class 1: Define the Project and Goals
                 </button>
                 <div id="class1" class="collapse">
@@ -244,7 +245,7 @@
               </div>
     
               <div class="btn-group">
-                <button type="button" class="btn btn-outline-dark px-3" data-bs-toggle="collapse" data-bs-target="#class2" style="height: 60px; text-align: left;">
+                <button type="button" class="btn btn-outline-dark px-3" data-bs-toggle="collapse" data-bs-target="#class2" style="height: 60px; text-align: left; color: #0720FF;">
                   Class 2: User Research
                 </button>
                 <div id="class2" class="collapse">
@@ -259,7 +260,7 @@
               </div>
     
               <div class="btn-group">
-                <button type="button" class="btn btn-outline-dark px-3" data-bs-toggle="collapse" data-bs-target="#class3" style="height: 60px; text-align: left;">
+                <button type="button" class="btn btn-outline-dark px-3" data-bs-toggle="collapse" data-bs-target="#class3" style="height: 60px; text-align: left; color: #0720FF;">
                   Class 3: Design and Ideation
                 </button>
                 <div id="class3" class="collapse">
@@ -274,7 +275,7 @@
               </div>
     
               <div class="btn-group">
-                <button type="button" class="btn btn-outline-dark px-3" data-bs-toggle="collapse" data-bs-target="#class4" style="height: 60px; text-align: left;">
+                <button type="button" class="btn btn-outline-dark px-3" data-bs-toggle="collapse" data-bs-target="#class4" style="height: 60px; text-align: left; color: #0720FF;">
                   Class 4: Develop and Refine Solutions
                 </button>
                 <div id="class4" class="collapse">
@@ -289,7 +290,7 @@
               </div>
     
               <div class="btn-group">
-                <button type="button" class="btn btn-outline-dark px-3" data-bs-toggle="collapse" data-bs-target="#class5" style="height: 60px; text-align: left;">
+                <button type="button" class="btn btn-outline-dark px-3" data-bs-toggle="collapse" data-bs-target="#class5" style="height: 60px; text-align: left; color: #0720FF;">
                   Class 5: Understand User
                 </button>
                 <div id="class5" class="collapse">
@@ -304,7 +305,7 @@
               </div>
     
               <div class="btn-group">
-                <button type="button" class="btn btn-outline-dark px-3" data-bs-toggle="collapse" data-bs-target="#class6" style="height: 60px; text-align: left;">
+                <button type="button" class="btn btn-outline-dark px-3" data-bs-toggle="collapse" data-bs-target="#class6" style="height: 60px; text-align: left; color: #0720FF;">
                   Class 6: Empathy Map
                 </button>
                 <div id="class6" class="collapse">
